@@ -8,8 +8,8 @@ function VoteBoyOrGirl() {
       <div className='text-5xl md:text-6xl font-semibold text-whiteLayout'>
         ¿<span className='text-boyColor'>Niño</span> o <span className='text-girlColor'>Niña</span>?
       </div>
-      <div className='mt-6 mx-8 p-4 w-5/6 md:w-[32rem] text-slate-500 text-lg font-semibold text-center bg-white bg-opacity-25 rounded-lg' >
-        <span className='text-2xl'>Participa en la quinela votando por el sexo del bebé de Cynthia y Adalberto &lt;3 </span>
+      <div className='mt-6 mx-8 p-4 w-5/6 md:w-[32rem] text-slate-500 text-lg font-semibold text-center bg-white bg-opacity-80 rounded-lg' >
+        <span className='text-2xl'>Participa con $250 votando por el sexo del bebé de Cynthia y Adalberto &lt;3 </span>
         <br /><br />
         Las votaciones estarán abiertas hasta el día 11 de Mayo del 2023, el 20% del dinero recaudado será para gastos para el/la bebé y el 80% será repartido entre los ganadores!
       </div>

@@ -5,7 +5,7 @@ import cloudBlue from '../../../public/img/clouds-pink.png'
 
 function CloudPattern() {
   return (
-    <div className='w-full'>
+    <div className='w-full pt-[20rem]'>
       {/* Coloreado con solo una linea */}
       {/* <div className='flex justify-center'>
         <img src={cloudPink} className='object-cover h-[20rem] w-[30rem]' />

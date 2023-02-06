@@ -46,7 +46,9 @@ function SuccessVote() {
   return (
     <LayoutMain>
       <div className='text-3xl md:text-5xl text-center w-full font-medium text-whiteLayout'>¡Felicidades, se ha registrado tu voto!</div>
-      <div className='mt-6 px-6 py-6 bg-whiteLayout w-5/6 md:w-[35rem] rounded-lg flex flex-col items-center text-fonttext'>
+      <div className='mt-2 text-2xl md:text-4xl text-center w-full font-medium text-whiteLayout'>¡Muchas gracias por participar!</div>
+      <div className='mt-2 text-lg md:text-2xl text-center w-full font-medium text-whiteLayout'>Atte: Cynthia y Adal</div>
+      <div className='mt-6 px-6 py-6 bg-whiteLayout bg-opacity-80 w-5/6 md:w-[35rem] rounded-lg flex flex-col items-center text-slate-500'>
         <div>A continuación te dejamos los datos para realizar el depósito de la apuesta:</div>
         <div className='px-2 py-4 my-6 bg-gray-200 w-full md:w-4/6 rounded-lg'>
           <div>Banco: BBVA</div>
@@ -55,13 +57,6 @@ function SuccessVote() {
         </div>
         <div>Es necesario que envíes el comprobante de depósito a uno de los papás para hacer válida tu participación.</div>
       </div>
-      <div className='mt-12 text-2xl md:text-4xl text-center w-full font-medium text-whiteLayout'>¡Muchas gracias por participar!</div>
-      <div className='mt-2 text-lg md:text-2xl text-center w-full font-medium text-whiteLayout'>Atte: Cynthia y Adal</div>
-      <div className='mt-4 w-[20rem] flex flex-col items-center'>
-        <img src={mes1} className='object-cover' />
-        <div className='text-whiteLayout text-lg font-medium'>Foto de 1 mes de embarazo</div>
-      </div>
-      <div className='h-20'></div>
     </LayoutMain>
   )
 }
