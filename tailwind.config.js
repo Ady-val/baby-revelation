@@ -10,6 +10,7 @@ module.exports = {
         boyColor: '#B3E5FC',
         girlColor2: '#ec4899',
         boyColor2: '#3b82f6',
+        testColor: '#52AA76',
         primary: '#4FC6DB',
         primaryhover: '#2DB2CB',
         secondary: '#5E6C84',
