@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap'); 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url('../font/Rubik-VariableFont_wght.ttf') format('truetype');
+} */
+
+* {
+  font-family: 'Rubik',  sans-serif;
+}
+
+/* .imgCloud {
+  background-image: url(__dirname + '/public/img/imm.png')
+} */
+
+.video-wrapper {
+  height: 100%;
+  width: 100%;
+  min-height: 225px;
+}
+.player-wrapper {
+  width: auto;
+  height: auto;
+}
+.react-player {
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.react-player > div {
+  position: absolute;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@layer components {
+
+  .reference-border {
+    @apply
+    border-4 
+    border-gray-900
+    border-dashed
+  }
+
+  /* Inputs */
+
+  .header-dropdown {
+    @apply 
+    inline-flex 
+    justify-center 
+    items-center
+    w-full 
+    p-2 
+    text-sm
+    font-semibold 
+    text-fonttext 
+    bg-whiteLayout 
+    rounded-md 
+    hover:bg-selected 
+    focus:outline-none 
+    focus-visible:ring-2 
+    focus-visible:ring-white 
+    focus-visible:ring-opacity-75
+  }
+
+  .header-dropdown-items {
+    @apply
+    right-0 
+    w-48
+    mt-1
+    text-fonttext
+    bg-white 
+    divide-y 
+    divide-gray-100 
+    rounded
+    shadow-lg 
+    focus:outline-none
+  }
+
+  .single-input {
+    @apply
+    placeholder:text-gray-300
+    bg-whiteLayout
+    w-full
+    min-h-[3rem]
+    border
+    border-[#CCCCCC]
+    rounded-md
+    hover:border-primary
+    focus:outline-none
+    focus:border-primary
+    focus:ring-1
+    text-sm
+    text-fonttext
+  }
+
+  /* Buttons */
+
+  .sidebar-button {
+    @apply flex 
+    flex-row 
+    items-center 
+    border border-white hover:border-primary 
+    h-10
+    mx-3
+    rounded-md
+    text-sm 
+    text-secondary
+  }
+
+  .sidebar-button-selected {
+    @apply flex 
+    flex-row 
+    items-center 
+    border-2 border-white  
+    h-10
+    mx-3
+    rounded-lg
+    bg-selected
+    shadow-inner
+    font-medium
+    text-sm 
+    text-secondary
+  }
+
+  .button {
+    @apply
+    bg-primary
+    text-xs
+    text-whiteLayout
+    font-medium
+    rounded
+    w-36
+    h-8
+    shadow-innerB
+    hover:bg-primaryhover
+  }
+
+  .button-secondary {
+    @apply
+    bg-secondary
+    text-xs
+    text-whiteLayout
+    font-medium
+    rounded
+    w-36
+    h-8
+    shadow-innerB
+    hover:bg-secondaryhover
+  }
+
+  .button-disabled {
+    @apply
+    bg-gray-300
+    text-xs
+    text-whiteLayout
+    font-medium
+    rounded
+    w-36
+    h-8
+    shadow-innerB
+  }
+
+  .button-transition {
+    @apply
+    rounded
+    border
+    hover:border-menu
+    border-primary
+    text-primary
+    hover:text-whiteLayout
+    hover:bg-primary
+    font-medium
+    transition-all
+    duration-200
+  }
+
+  .adjustable-button {
+    @apply
+    grow
+    bg-primary
+    text-xs
+    text-whiteLayout
+    font-medium
+    rounded-lg
+    shadow-innerB
+    hover:bg-primaryhover
+  }
+
+  .delete-button {
+    @apply
+    grow
+    bg-delete
+    text-xs
+    text-whiteLayout
+    font-medium
+    rounded-lg
+    shadow-innerB
+    hover:bg-deletehover
+  }
+
+  .adjustable-button-2 {
+    @apply
+    grow
+    bg-inherit
+    border
+    border-primary
+    text-xs
+    text-primary
+    font-medium
+    rounded-lg
+    hover:bg-secondaryhover
+  }
+
+  .modal-buttons {
+    @apply
+    w-32
+    text-center
+    font-light
+    py-1 
+    rounded-md
+    border
+  }
+
+  /* Text */
+
+  .blog-title {
+    @apply
+    text-xl
+    text-fonttext
+    font-medium
+  }
+
+  .blog-subtitle {
+    @apply
+    text-base
+    text-fonttext
+    font-medium
+  }
+
+  .blog-description {
+    @apply
+    text-base
+    text-fonttext
+  }
+}
