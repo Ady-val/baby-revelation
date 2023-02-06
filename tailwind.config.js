@@ -6,8 +6,8 @@ module.exports = {
         cloud: "url('/public/img/imm.png')",
       },
       colors: {
-        girlColor: '#f472b6',
-        boyColor: '#60a5fa',
+        girlColor: '#f0b9cf',
+        boyColor: '#B3E5FC',
         girlColor2: '#ec4899',
         boyColor2: '#3b82f6',
         primary: '#4FC6DB',
