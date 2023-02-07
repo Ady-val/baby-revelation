@@ -8,10 +8,10 @@ export const blogPublications = [
     description: '6.1 semanas, primera sonografía.',
     img: primeraFoto
   },
-  // {
-  //   title: 'Foto del primer mes de embarazo',
-  //   subtitle: '15 de Enero 2023',
-  //   description: 'Descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  //   img: mes1
-  // },
+  {
+    title: 'Foto del primer mes de embarazo',
+    subtitle: '15 de Enero 2023',
+    description: 'Descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    img: mes1
+  },
 ]

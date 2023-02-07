@@ -3,6 +3,7 @@ import LayoutMain from '../../containers/MainLayout'
 import mes1 from '../../../public/img/1mes.jpg'
 import { BiCopy } from "react-icons/bi";
 import { useSnackbar } from 'notistack';
+import { Link } from 'react-router-dom';
 
 function SuccessVote() {
   const { enqueueSnackbar } = useSnackbar();
@@ -57,6 +58,7 @@ function SuccessVote() {
         </div>
         <div>Es necesario que envíes el comprobante de depósito a uno de los papás para hacer válida tu participación.</div>
       </div>
+      <Link to='/' className='mt-6 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Volver a inicio</Link>
     </LayoutMain>
   )
 }

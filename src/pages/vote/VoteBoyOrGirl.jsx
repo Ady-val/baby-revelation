@@ -41,7 +41,6 @@ function VoteBoyOrGirl() {
         ) : (
           <div className='relative mt-3 h-16 w-5/6 md:w-[40rem] flex border-4 rounded-lg border-whiteLayout'>
             <div className={`h-full w-[${girlPercentage}%] bg-girlColor`} />
-            {/* <div className={`h-full w-[57%] bg-girlColor`} /> */}
             <div className='grow bg-boyColor' />
             <div className='absolute top-0 left-0 w-full h-full flex justify-between items-center px-2 text-lg text-slate-500'>
               <div>Niña ({girlPercentage}%)</div>
@@ -50,7 +49,8 @@ function VoteBoyOrGirl() {
           </div>
         )}
       </div>
-      <Link to='/vota' className='mt-8 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Vota!</Link>
+      {!loading && <Link to='/vota' className='mt-8 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Vota!</Link>}
+      <Link to='/blog' className='mt-12 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Ver blog</Link>
     </LayoutMain>
   )
 }
