@@ -8,8 +8,8 @@ module.exports = {
       colors: {
         girlColor: '#f0b9cf',
         boyColor: '#B3E5FC',
-        girlColor2: '#ec4899',
-        boyColor2: '#3b82f6',
+        girlColor2: '#E391B2',
+        boyColor2: '#86D1F5',
         testColor: '#52AA76',
         primary: '#4FC6DB',
         primaryhover: '#2DB2CB',

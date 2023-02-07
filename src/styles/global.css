@@ -236,6 +236,46 @@ input[type=number] {
     border
   }
 
+  .button-boy {
+    @apply
+    h-8
+    w-32
+    md:w-40
+    flex
+    justify-center
+    items-center
+    bg-whiteLayout
+    hover:bg-boyColor2
+    text-boyColor2
+    hover:text-whiteLayout
+    rounded
+    border-2
+    border-boyColor2
+    hover:border-whiteLayout
+    transition-all
+    duration-200
+  }
+
+  .button-girl {
+    @apply
+    h-8
+    w-32
+    md:w-40
+    flex
+    justify-center
+    items-center
+    bg-whiteLayout
+    hover:bg-girlColor2
+    text-girlColor2
+    hover:text-whiteLayout
+    rounded
+    border-2
+    border-girlColor2
+    hover:border-whiteLayout
+    transition-all
+    duration-200
+  }
+
   /* Text */
 
   .blog-title {
