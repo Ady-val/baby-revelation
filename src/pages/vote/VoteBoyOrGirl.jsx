@@ -50,7 +50,8 @@ function VoteBoyOrGirl() {
         )}
       </div>
       {!loading && <Link to='/vota' className='mt-8 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Vota!</Link>}
-      <Link to='/blog' className='mt-12 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Ver blog</Link>
+      <Link to='/blog' className='mt-12 mb-16 h-8 w-40 flex justify-center items-center bg-whiteLayout hover:text-boyColor2 rounded text-girlColor2'>Ver blog</Link>
+      <div className='h-10 text-girlColor'>Holi <span className='text-boyColor'>:B</span></div>
     </LayoutMain>
   )
 }
